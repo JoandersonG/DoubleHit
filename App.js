@@ -4,14 +4,15 @@ import { createDrawerNavigator } from "react-navigation-drawer";
 import { createStackNavigator } from "react-navigation-stack";
 
 import Home from "./src/components/HomeScreen";
-import Profile from "./src/components/ProfileScreen";
+import Category from "./src/components/CategoryScreen";
 import Login from "./src/components/LoginScreen";
 import Register from "./src/components/RegisterScreen";
 
 const MainDrawer = createDrawerNavigator(
   {
     Home: Home,
-    Profile: Profile,
+    Basquete: Category,
+    
   },
   {
     //Prop
@@ -36,6 +37,10 @@ const AppNavigator = createStackNavigator({
   },
   Register: {
     screen: Register,
+    navigationOptions: {
+      title: "Cadastro",
+      headerTitleAlign: 'center'
+    },
   },
   Drawer: {
     screen: MainDrawer,

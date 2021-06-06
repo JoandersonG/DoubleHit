@@ -4,6 +4,38 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'center',
+      backgroundColor: '#ccaaff'
+    },
+    
+    topbar: {
+      width: '100%',
+      height: 60,
+      backgroundColor: 'white',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+
+    topbarText: {
+      fontSize: 20,
+    },
+
+    banner: {
+      width: '100%',
+      height: '70%',
+      marginBottom: 15,
+    },
+
+
+    background: {
+      width: '100%',
+      height: '100%',
+      resizeMode: 'cover',
+      position: 'absolute' //not push other components underneath it
+    },
+
+    container: {
+      flex: 1,
+      alignItems: 'center',
     },
 
     topbar: {
@@ -14,13 +46,9 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     
-    logo: {
-      width: 160,
-      height: 35,
-    },
-
     scrollView: {
       width: '100%',
+      height: '100%',
       marginBottom: 10,
     },
 
@@ -30,12 +58,13 @@ const styles = StyleSheet.create({
       resizeMode: 'cover',
     },
 
-    liveComponent: {
-      backgroundColor: '#2ba355',
+    gameComponent: {
+      backgroundColor: '#c833abff',
       borderRadius: 10,
       paddingHorizontal: 15,
-      marginHorizontal: 7,
-      marginBottom: 15,
+      marginHorizontal: 30,
+      marginVertical: 15,
+      alignItems: 'center'
     },
 
     championshipView: {
@@ -48,7 +77,7 @@ const styles = StyleSheet.create({
 
     championshipText: {
       color: 'white',
-      fontSize: 12,
+      fontSize: 14,
       marginBottom: 20,
       marginTop: 5,
     },
@@ -60,7 +89,7 @@ const styles = StyleSheet.create({
 
     teamText: {
       color: 'white',
-      fontSize: 16
+      fontSize: 22
     },
 
     teamLogo: {
@@ -74,7 +103,7 @@ const styles = StyleSheet.create({
 
     textAposta: {
       color: 'white',
-      fontSize: 10,
+      fontSize: 14,
     },
 
     buttonAposta: {
@@ -83,12 +112,13 @@ const styles = StyleSheet.create({
       marginEnd: 10,
       borderRadius: 5,
       alignItems: 'center',
-      paddingHorizontal: 20,
+      paddingHorizontal: 30,
       paddingVertical: 5,
       justifyContent: 'center',
     },
 
     buttonApostaText: {
+      fontSize: 20,
       fontWeight: '600'
     },
 
@@ -104,30 +134,14 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
 
-    buttonCategoryText: {
-      color: 'white',
-      fontWeight: '600',
-      fontSize: 20,
-    },
+   
 
     liveText: {
-      fontSize: 16,
+      fontSize: 20,
       fontWeight: '500',
       marginTop: 10,
       marginStart: 10,
       marginBottom: 10,
-    },
-
-    homeTitle: {
-      color: 'black',
-      fontSize: 34,
-      marginTop: 26,
-    },
-
-    homeWelcome: {
-      color: 'black',
-      fontSize: 20,
-      marginTop: 20,
     },
 
     button: {

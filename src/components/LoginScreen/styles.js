@@ -35,29 +35,28 @@ const styles = StyleSheet.create({
     button: {
       width: 300,
       height: 42,
-      backgroundColor: '#5599ff',
-      marginTop: 10,
-      borderRadius: 5,
+      backgroundColor: 'black',
+      marginTop: 20,
+      borderRadius: 7,
       alignItems: 'center',
       justifyContent: 'center',
    
     },
 
     logo: {
-      width: 150,
+      width: 180,
       height: 150,
-      borderRadius: 80,
       marginBottom: 15
     },
 
     input:{
-      marginTop: 10,
+      marginTop: 20,
       padding: 10,
       width: 300,
       backgroundColor: '#fff',
       fontSize: 16,
       fontWeight: 'bold',
-      borderRadius: 3,
+      borderRadius: 7,
     },
 
     buttonText:{
@@ -67,7 +66,7 @@ const styles = StyleSheet.create({
     },
 
     bottomText: {
-      marginTop: 20,
+
       fontWeight: '500'
     },
 

@@ -23,13 +23,13 @@ const LoginScreen = ({ navigation }) => {
 
           <TextInput
             style={styles.input}
-            placeholder="Informe seu e-mail"
+            placeholder="Login"
             onChangeText={text => setEmail(text)}
           />
 
           <TextInput
             style={styles.input}
-            placeholder="Digite sua senha"
+            placeholder="Senha"
             secureTextEntry={true}
           />
 
@@ -37,7 +37,7 @@ const LoginScreen = ({ navigation }) => {
             style={styles.button} onPress={() => {
               navigation.navigate('Home', {'email' : email})
             }}>
-            <Text style={styles.buttonText}>Acessar</Text>
+            <Text style={styles.buttonText}>Entrar</Text>
           </TouchableOpacity>
 
           <Text style={styles.bottomText}>Ainda não possui conta? {' '}
