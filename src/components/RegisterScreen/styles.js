@@ -6,32 +6,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  texto1: {
-    color: '#f8f8ff',
-    fontSize: 14,
-    padding: 30
-  },
-  texto2: {
-    color: '#fffaf0',
-    fontSize: 16,
-    padding: 30
-  },
-  texto3: {
-    color: '#f0ffff',
-    fontSize: 18,
-    textAlign: 'center',
-    letterSpacing: 2,
-    padding: 30,
-    backgroundColor: '#000000',
-  },
-
-  texto4: {
-    color: '#800000',
-    fontSize: 12,
-    textAlign: 'center',
-    letterSpacing: 2,
-  },
-
+  
   button: {
     width: 300,
     height: 42,

@@ -11,12 +11,12 @@ const LiveMatch = (props) => {
       <View style={styles.teams}>
         <Text style={styles.teamText}>{props.houseTeam}</Text>
         <Image
-          source={require("../../../src/image/flamengo_logo.png")}
+          source={props.houseTeamImageSource}
           style={styles.teamLogo}
         />
         <Text style={styles.teamText}> X </Text>
         <Image
-          source={require("../../../src/image/fluminense_logo.png")}
+          source={props.guestTeamImageSource}
           style={styles.teamLogo}
         />
         <Text style={styles.teamText}>{props.guestTeam}</Text>

@@ -5,33 +5,39 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'center',
-      backgroundColor: '#ccaaff'
     },
     
     topbar: {
       width: '100%',
       height: 60,
+      flexDirection: 'row',
       backgroundColor: 'white',
       alignItems: 'center',
       justifyContent: 'center',
     },
-
+  
     topbarText: {
       fontSize: 20,
+      fontWeight: '600',
+      alignSelf: 'center'
     },
+  
+    backButton: {
+      position: "absolute", 
+      top: 15,
+      start: 20,
+    },
+  
+    backButtonText: {
+      fontWeight: '600',
+      fontSize: 20,
+    },
+  
 
     banner: {
       width: '100%',
       height: '70%',
       marginBottom: 15,
-    },
-
-
-    background: {
-      width: '100%',
-      height: '100%',
-      resizeMode: 'cover',
-      position: 'absolute' //not push other components underneath it
     },
 
     container: {
@@ -50,7 +56,7 @@ const styles = StyleSheet.create({
     scrollView: {
       width: '100%',
       height: '100%',
-      marginBottom: 10,
+      marginBottom: 70,
     },
 
     background: {
@@ -60,7 +66,7 @@ const styles = StyleSheet.create({
     },
 
     gameComponent: {
-      backgroundColor: '#c833abff',
+      backgroundColor: '#000080ce',
       borderRadius: 10,
       paddingHorizontal: 15,
       marginHorizontal: 30,
@@ -86,6 +92,7 @@ const styles = StyleSheet.create({
     teams: {
       flexDirection: 'row',
       marginBottom:10,
+      alignSelf: 'center'
     },
 
     teamText: {
@@ -121,37 +128,6 @@ const styles = StyleSheet.create({
     buttonApostaText: {
       fontSize: 20,
       fontWeight: '600'
-    },
-
-    buttonCategory: {
-      width: '40%',
-      backgroundColor: '#2ba355cd',
-      marginStart: 15,
-      marginEnd: 15,
-      borderRadius: 5,
-      alignItems: 'center',
-      paddingHorizontal: 40,
-      paddingVertical: 15,
-      justifyContent: 'center',
-    },
-
-    liveText: {
-      fontSize: 20,
-      fontWeight: '500',
-      marginTop: 10,
-      marginStart: 10,
-      marginBottom: 10,
-    },
-
-    button: {
-      width: 300,
-      height: 42,
-      backgroundColor: '#5599ff',
-      marginTop: 10,
-      borderRadius: 5,
-      alignItems: 'center',
-      justifyContent: 'center',
-   
     },
 
   });

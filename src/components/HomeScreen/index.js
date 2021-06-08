@@ -17,6 +17,7 @@ class HomeScreen extends Component {
     const { navigation } = this.props;
     return (
       <View style={styles.container}>
+
         {/* TopBar */}
 
         <View style={styles.topbar}>
@@ -36,7 +37,8 @@ class HomeScreen extends Component {
 
               <LiveMatch
                 matchCategoryColor="#2ba355"
-                matchCategoryImagePath='../../../src/image/flamengo_logo.png'
+                houseTeamImageSource={require('../../../src/image/flamengo_logo.png')}
+                guestTeamImageSource={require("../../../src/image/fluminense_logo.png")}
                 championship="Campeonato carioca"
                 houseTeam="Vitória"
                 guestTeam="Bahia"
@@ -48,7 +50,8 @@ class HomeScreen extends Component {
               <LiveMatch
                 matchCategoryColor="black"
                 championship="Campeonato Outonal"
-                matchCategoryImagePath='../../../src/image/flamengo_logo.png'
+                houseTeamImageSource={require('../../../src/image/flamengo_logo.png')}
+                guestTeamImageSource={require("../../../src/image/fluminense_logo.png")}
                 houseTeam="Corovídeos"
                 guestTeam="Margella"
                 betProportionHouse="5.1"
@@ -79,7 +82,7 @@ class HomeScreen extends Component {
               <TouchableOpacity
                 style={styles.buttonCategory}
                 onPress={() => {
-                  navigation.navigate("Home");
+                  navigation.navigate("Futebol");
                 }}
               >
                 <Text style={styles.buttonCategoryText}>Futebol</Text>
@@ -91,7 +94,7 @@ class HomeScreen extends Component {
                   { backgroundColor: "#c837abc3" },
                 ]}
                 onPress={() => {
-                  navigation.navigate("Home");
+                  navigation.navigate("Basquete");
                 }}
               >
                 <Text style={styles.buttonCategoryText}>Basquete</Text>
@@ -111,7 +114,7 @@ class HomeScreen extends Component {
                   { backgroundColor: "#000080ce" },
                 ]}
                 onPress={() => {
-                  navigation.navigate("Home");
+                  navigation.navigate("NFL");
                 }}
               >
                 <Text style={styles.buttonCategoryText}>NFL</Text>
@@ -123,7 +126,7 @@ class HomeScreen extends Component {
                   { backgroundColor: "#1a1a1ad8" },
                 ]}
                 onPress={() => {
-                  navigation.navigate("Home");
+                  navigation.navigate("CS:GO");
                 }}
               >
                 <Text style={styles.buttonCategoryText}>CS:GO</Text>
