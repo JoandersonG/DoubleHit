@@ -30,68 +30,7 @@ const styles = StyleSheet.create({
       resizeMode: 'cover',
     },
 
-    liveComponent: {
-      backgroundColor: '#2ba355',
-      borderRadius: 10,
-      paddingHorizontal: 15,
-      marginHorizontal: 7,
-      marginBottom: 15,
-    },
-
-    championshipView: {
-      width: '100%',
-      backgroundColor: 'red',
-      flexDirection: 'row',
-      marginBottom:10,
-      
-    },
-
-    championshipText: {
-      color: 'white',
-      fontSize: 12,
-      marginBottom: 20,
-      marginTop: 5,
-    },
-
-    teams: {
-      flexDirection: 'row',
-      marginBottom:10,
-    },
-
-    teamText: {
-      color: 'white',
-      fontSize: 16
-    },
-
-    teamLogo: {
-      width: 30,
-      height: 30,
-    },
-
-    verticalAlign: {
-      alignItems: 'center',
-    },
-
-    textAposta: {
-      color: 'white',
-      fontSize: 10,
-    },
-
-    buttonAposta: {
-      backgroundColor: 'white',
-      marginStart: 10,
-      marginEnd: 10,
-      borderRadius: 5,
-      alignItems: 'center',
-      paddingHorizontal: 20,
-      paddingVertical: 5,
-      justifyContent: 'center',
-    },
-
-    buttonApostaText: {
-      fontWeight: '600'
-    },
-
+   
     buttonCategory: {
       width: '40%',
       backgroundColor: '#2ba355cd',
@@ -116,29 +55,6 @@ const styles = StyleSheet.create({
       marginTop: 10,
       marginStart: 10,
       marginBottom: 10,
-    },
-
-    homeTitle: {
-      color: 'black',
-      fontSize: 34,
-      marginTop: 26,
-    },
-
-    homeWelcome: {
-      color: 'black',
-      fontSize: 20,
-      marginTop: 20,
-    },
-
-    button: {
-      width: 300,
-      height: 42,
-      backgroundColor: '#5599ff',
-      marginTop: 10,
-      borderRadius: 5,
-      alignItems: 'center',
-      justifyContent: 'center',
-   
     },
 
   });

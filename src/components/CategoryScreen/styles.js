@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
+  
     container: {
       flex: 1,
       alignItems: 'center',
@@ -133,8 +134,6 @@ const styles = StyleSheet.create({
       paddingVertical: 15,
       justifyContent: 'center',
     },
-
-   
 
     liveText: {
       fontSize: 20,

@@ -12,15 +12,10 @@ const MainDrawer = createDrawerNavigator(
   {
     Home: Home,
     Basquete: Category,
-    
   },
   {
-    //Prop
     contentOptions: {
-      //Sempre que a aba estiver ativa, manter essa cor
       activeTintColor: `#80ccc0`,
-      //Prop
-      //Permite aumentar a fonte
       labelStyle: {
         fontSize: 18,
       },
@@ -48,6 +43,7 @@ const AppNavigator = createStackNavigator({
       headerShown: false,
     },
   },
+
 });
 
 //make this component available to the app

@@ -4,15 +4,14 @@ import {
   Text,
   View,
   Image,
-  TextInput,
   TouchableOpacity,
-  Alert,
   ScrollView,
   ImageBackground,
 } from "react-native";
 import styles from "./styles";
 
 const CategoryScreen = ({ navigation }) => {
+
   return (
     <View style={styles.container}>
       <View style={styles.topbar}>
